@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Platoteststore">
+  <test thread-count="4" name="LoginPage">
+    <classes>
+      <class name="PlatoTeststore.LoginPage"/>
+    </classes>
+  </test>
+  <test thread-count="4" name="ProductPage">
+    <classes>
+      <class name="PlatoTeststore.ProductPage"/>
+    </classes>
+  </test>
+  <test thread-count="4" name="AddProduct">
+    <classes>
+     <class name="PlatoTeststore.AddProduct"/>
+    </classes>
+    
+  </test>
+  <test thread-count="4" name="CheckOutPage">
+    <classes>
+     <class name="PlatoTeststore.CheckOutPage"/>
+    </classes>
+    
+  </test>
+        
+</suite> 

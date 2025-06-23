@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+
+    <!-- report theme -->
+    <theme>DARK</theme>
+
+    <!-- document encoding -->
+    <encoding>UTF-8</encoding>
+
+    <!-- protocol for scripts -->
+    <protocol>HTTPS</protocol>
+
+    <!-- timeline section -->
+    <timelineEnabled>true</timelineEnabled>
+    <enableOfflineMode>false</enableOfflineMode>
+    <thumbnailForBase64>false</thumbnailForBase64>
+
+    <!-- report titles -->
+    <documentTitle>Plato Final Project Report</documentTitle>
+    <reportName>🚀 Plato Test Store Automation Report</reportName>
+    <timeStampFormat>dd MMM yyyy hh:mm:ss a</timeStampFormat>
+
+    <!-- custom JavaScript (optional) -->
+    <scripts>
+      <![CDATA[
+        $(document).ready(function() {
+          console.log("Report loaded.");
+        });
+      ]]>
+    </scripts>
+
+    <!-- custom CSS -->
+    <styles>
+      <![CDATA[
+        .test-status.pass { background-color: #2e7d32 !important; color: white !important; }
+        .test-status.fail { background-color: #c62828 !important; color: white !important; }
+        .brand-logo { font-weight: bold; font-size: 20px; color: #ffc107 !important; }
+        .report-name { font-family: 'Segoe UI', sans-serif; }
+      ]]>
+    </styles>
+
+  </configuration>
+</extentreports>

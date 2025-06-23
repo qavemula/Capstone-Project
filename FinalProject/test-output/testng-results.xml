@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-20T20:13:50 ADT" name="Platoteststore" finished-at="2025-06-20T20:14:51 ADT" duration-ms="61090">
+    <groups>
+    </groups>
+    <test started-at="2025-06-20T20:13:50 ADT" name="LoginPage" finished-at="2025-06-20T20:14:05 ADT" duration-ms="15084">
+      <class name="PlatoTeststore.LoginPage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:PlatoTeststore.LoginPage@710f4dc7]" started-at="2025-06-20T20:13:52 ADT" name="setUp" finished-at="2025-06-20T20:14:00 ADT" duration-ms="8442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void PlatoTeststore.LoginPage.enterLoginDetails(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterLoginDetails(java.lang.String,java.lang.String)[pri:0, instance:PlatoTeststore.LoginPage@710f4dc7]" started-at="2025-06-20T20:14:00 ADT" name="enterLoginDetails" data-provider="LoginData" finished-at="2025-06-20T20:14:03 ADT" duration-ms="2575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testingworld369@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PlatoTeststore.LoginPage@710f4dc7]" started-at="2025-06-20T20:14:03 ADT" name="tearDown" finished-at="2025-06-20T20:14:05 ADT" duration-ms="2359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterLoginDetails status=SUCCESS method=LoginPage.enterLoginDetails(java.lang.String,java.lang.String)[pri:0, instance:PlatoTeststore.LoginPage@710f4dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PlatoTeststore.LoginPage -->
+    </test> <!-- LoginPage -->
+    <test started-at="2025-06-20T20:14:05 ADT" name="ProductPage" finished-at="2025-06-20T20:14:16 ADT" duration-ms="10886">
+      <class name="PlatoTeststore.ProductPage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:PlatoTeststore.ProductPage@5b94b04d]" started-at="2025-06-20T20:14:05 ADT" name="setUp" finished-at="2025-06-20T20:14:12 ADT" duration-ms="6407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void PlatoTeststore.ProductPage.validateSearchResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchResults()[pri:0, instance:PlatoTeststore.ProductPage@5b94b04d]" started-at="2025-06-20T20:14:12 ADT" name="validateSearchResults" finished-at="2025-06-20T20:14:14 ADT" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PlatoTeststore.ProductPage@5b94b04d]" started-at="2025-06-20T20:14:14 ADT" name="tearDown" finished-at="2025-06-20T20:14:16 ADT" duration-ms="2478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSearchResults status=SUCCESS method=ProductPage.validateSearchResults()[pri:0, instance:PlatoTeststore.ProductPage@5b94b04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PlatoTeststore.ProductPage -->
+    </test> <!-- ProductPage -->
+    <test started-at="2025-06-20T20:14:16 ADT" name="AddProduct" finished-at="2025-06-20T20:14:29 ADT" duration-ms="12980">
+      <class name="PlatoTeststore.AddProduct">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:PlatoTeststore.AddProduct@7ee8290b]" started-at="2025-06-20T20:14:16 ADT" name="setUp" finished-at="2025-06-20T20:14:23 ADT" duration-ms="6447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void PlatoTeststore.AddProduct.addProductTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductTest()[pri:0, instance:PlatoTeststore.AddProduct@7ee8290b]" started-at="2025-06-20T20:14:23 ADT" name="addProductTest" finished-at="2025-06-20T20:14:26 ADT" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PlatoTeststore.AddProduct@7ee8290b]" started-at="2025-06-20T20:14:26 ADT" name="tearDown" finished-at="2025-06-20T20:14:29 ADT" duration-ms="2881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductTest status=SUCCESS method=AddProduct.addProductTest()[pri:0, instance:PlatoTeststore.AddProduct@7ee8290b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PlatoTeststore.AddProduct -->
+    </test> <!-- AddProduct -->
+    <test started-at="2025-06-20T20:14:29 ADT" name="CheckOutPage" finished-at="2025-06-20T20:14:51 ADT" duration-ms="22078">
+      <class name="PlatoTeststore.CheckOutPage">
+        <test-method is-config="true" signature="setupReporting()[pri:0, instance:PlatoTeststore.CheckOutPage@1ebd319f]" started-at="2025-06-20T20:13:50 ADT" name="setupReporting" finished-at="2025-06-20T20:13:50 ADT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReporting -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:PlatoTeststore.CheckOutPage@1ebd319f]" started-at="2025-06-20T20:14:29 ADT" name="setUp" finished-at="2025-06-20T20:14:35 ADT" duration-ms="6147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void PlatoTeststore.CheckOutPage.proceedToCheckoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="proceedToCheckoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:PlatoTeststore.CheckOutPage@1ebd319f]" started-at="2025-06-20T20:14:35 ADT" name="proceedToCheckoutTest" data-provider="Checkout page" finished-at="2025-06-20T20:14:49 ADT" duration-ms="13274" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testingworld369@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1 main st]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Halifax]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[B3R0P8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.cssSelector: #collapse-payment-method > div > div.buttons > div > input[type=checkbox]:nth-child(2)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.cssSelector: #collapse-payment-method > div > div.buttons > div > input[type=checkbox]:nth-child(2)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at Utils.webActions.clickCssSelector(webActions.java:102)
+at PlatoTeststore.CheckOutPage.proceedToCheckoutTest(CheckOutPage.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckoutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PlatoTeststore.CheckOutPage@1ebd319f]" started-at="2025-06-20T20:14:49 ADT" name="tearDown" finished-at="2025-06-20T20:14:51 ADT" duration-ms="2596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=proceedToCheckoutTest status=FAILURE method=CheckOutPage.proceedToCheckoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:PlatoTeststore.CheckOutPage@1ebd319f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:PlatoTeststore.CheckOutPage@1ebd319f]" started-at="2025-06-20T20:14:51 ADT" name="flushReports" finished-at="2025-06-20T20:14:52 ADT" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- PlatoTeststore.CheckOutPage -->
+    </test> <!-- CheckOutPage -->
+  </suite> <!-- Platoteststore -->
+</testng-results>
